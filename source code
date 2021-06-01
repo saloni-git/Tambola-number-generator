@@ -1,0 +1,215 @@
+<html>
+<head>
+<title>
+Tambola</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="tambola/sheet.css">
+	
+        
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+<h1 style="color:orange" align="center">PLAY TAMBOLA</h1></div>
+<hr>
+ 
+ <div id="generator-container" align="center">
+                    <input type="button" value="Generate" id="btn-generate" onclick="generateNum()">
+                    <br>
+                    <div id="number">&nbsp;&nbsp;</div>
+                </div>
+<div id="grid-container">
+<div class="num" id="num-1" style="height: 79px; line-height: 79px;">1</div>
+<div class="num" id="num-2" style="height: 79px; line-height: 79px;">2</div>
+<div class="num" id="num-3" style="height: 79px; line-height: 79px;">3</div>
+<div class="num" id="num-4" style="height: 79px; line-height: 79px;">4</div>
+<div class="num" id="num-5" style="height: 79px; line-height: 79px;">5</div>
+<div class="num" id="num-6" style="height: 79px; line-height: 79px;">6</div>
+<div class="num" id="num-7" style="height: 79px; line-height: 79px;">7</div>
+<div class="num" id="num-8" style="height: 79px; line-height: 79px;">8</div>
+<div class="num" id="num-9" style="height: 79px; line-height: 79px;">9</div>
+<div class="num" id="num-10" style="height: 79px; line-height: 79px;">10</div>
+<div class="num" id="num-11" style="height: 79px; line-height: 79px;">11</div>
+<div class="num" id="num-12" style="height: 79px; line-height: 79px;">12</div>
+<div class="num" id="num-13" style="height: 79px; line-height: 79px;">13</div>
+<div class="num" id="num-14" style="height: 79px; line-height: 79px;">14</div>
+<div class="num" id="num-15" style="height: 79px; line-height: 79px;">15</div>
+<div class="num" id="num-16" style="height: 79px; line-height: 79px;">16</div>
+<div class="num" id="num-17" style="height: 79px; line-height: 79px;">17</div>
+<div class="num" id="num-18" style="height: 79px; line-height: 79px;">18</div>
+<div class="num" id="num-19" style="height: 79px; line-height: 79px;">19</div>
+<div class="num" id="num-20" style="height: 79px; line-height: 79px;">20</div>
+<div class="num" id="num-21" style="height: 79px; line-height: 79px;">21</div>
+<div class="num" id="num-22" style="height: 79px; line-height: 79px;">22</div>
+<div class="num" id="num-23" style="height: 79px; line-height: 79px;">23</div>
+<div class="num" id="num-24" style="height: 79px; line-height: 79px;">24</div>
+<div class="num" id="num-25" style="height: 79px; line-height: 79px;">25</div>
+<div class="num" id="num-26" style="height: 79px; line-height: 79px;">26</div>
+<div class="num" id="num-27" style="height: 79px; line-height: 79px;">27</div>
+<div class="num" id="num-28" style="height: 79px; line-height: 79px;">28</div>
+<div class="num" id="num-29" style="height: 79px; line-height: 79px;">29</div>
+<div class="num" id="num-30" style="height: 79px; line-height: 79px;">30</div>
+<div class="num" id="num-31" style="height: 79px; line-height: 79px;">31</div>
+<div class="num" id="num-32" style="height: 79px; line-height: 79px;">32</div>
+<div class="num" id="num-33" style="height: 79px; line-height: 79px;">33</div>
+<div class="num" id="num-34" style="height: 79px; line-height: 79px;">34</div>
+<div class="num" id="num-35" style="height: 79px; line-height: 79px;">35</div>
+<div class="num" id="num-36" style="height: 79px; line-height: 79px;">36</div>
+<div class="num" id="num-37" style="height: 79px; line-height: 79px;">37</div>
+<div class="num" id="num-38" style="height: 79px; line-height: 79px;">38</div>
+<div class="num" id="num-39" style="height: 79px; line-height: 79px;">39</div>
+<div class="num" id="num-40" style="height: 79px; line-height: 79px;">40</div>
+<div class="num" id="num-41" style="height: 79px; line-height: 79px;">41</div>
+<div class="num" id="num-42" style="height: 79px; line-height: 79px;">42</div>
+<div class="num" id="num-43" style="height: 79px; line-height: 79px;">43</div>
+<div class="num" id="num-44" style="height: 79px; line-height: 79px;">44</div>
+<div class="num" id="num-45" style="height: 79px; line-height: 79px;">45</div>
+<div class="num" id="num-46" style="height: 79px; line-height: 79px;">46</div>
+<div class="num" id="num-47" style="height: 79px; line-height: 79px;">47</div>
+<div class="num" id="num-48" style="height: 79px; line-height: 79px;">48</div>
+<div class="num" id="num-49" style="height: 79px; line-height: 79px;">49</div>
+<div class="num" id="num-50" style="height: 79px; line-height: 79px;">50</div>
+<div class="num" id="num-51" style="height: 79px; line-height: 79px;">51</div>
+<div class="num" id="num-52" style="height: 79px; line-height: 79px;">52</div>
+<div class="num" id="num-53" style="height: 79px; line-height: 79px;">53</div>
+<div class="num" id="num-54" style="height: 79px; line-height: 79px;">54</div>
+<div class="num" id="num-55" style="height: 79px; line-height: 79px;">55</div>
+<div class="num" id="num-56" style="height: 79px; line-height: 79px;">56</div>
+<div class="num" id="num-57" style="height: 79px; line-height: 79px;">57</div>
+<div class="num" id="num-58" style="height: 79px; line-height: 79px;">58</div>
+<div class="num" id="num-59" style="height: 79px; line-height: 79px;">59</div>
+<div class="num" id="num-60" style="height: 79px; line-height: 79px;">60</div>
+<div class="num" id="num-61" style="height: 79px; line-height: 79px;">61</div>
+<div class="num" id="num-62" style="height: 79px; line-height: 79px;">62</div>
+<div class="num" id="num-63" style="height: 79px; line-height: 79px;">63</div>
+<div class="num" id="num-64" style="height: 79px; line-height: 79px;">64</div>
+<div class="num" id="num-65" style="height: 79px; line-height: 79px;">65</div>
+<div class="num" id="num-66" style="height: 79px; line-height: 79px;">66</div>
+<div class="num" id="num-67" style="height: 79px; line-height: 79px;">67</div>
+<div class="num" id="num-68" style="height: 79px; line-height: 79px;">68</div>
+<div class="num" id="num-69" style="height: 79px; line-height: 79px;">69</div>
+<div class="num" id="num-70" style="height: 79px; line-height: 79px;">70</div>
+<div class="num" id="num-71" style="height: 79px; line-height: 79px;">71</div>
+<div class="num" id="num-72" style="height: 79px; line-height: 79px;">72</div>
+<div class="num" id="num-73" style="height: 79px; line-height: 79px;">73</div>
+<div class="num" id="num-74" style="height: 79px; line-height: 79px;">74</div>
+<div class="num" id="num-75" style="height: 79px; line-height: 79px;">75</div>
+<div class="num" id="num-76" style="height: 79px; line-height: 79px;">76</div>
+<div class="num" id="num-77" style="height: 79px; line-height: 79px;">77</div>
+<div class="num" id="num-78" style="height: 79px; line-height: 79px;">78</div>
+<div class="num" id="num-79" style="height: 79px; line-height: 79px;">79</div>
+<div class="num" id="num-80" style="height: 79px; line-height: 79px;">80</div>
+<div class="num" id="num-81" style="height: 79px; line-height: 79px;">81</div>
+<div class="num" id="num-82" style="height: 79px; line-height: 79px;">82</div>
+<div class="num" id="num-83" style="height: 79px; line-height: 79px;">83</div>
+<div class="num" id="num-84" style="height: 79px; line-height: 79px;">84</div>
+<div class="num" id="num-85" style="height: 79px; line-height: 79px;">85</div>
+<div class="num" id="num-86" style="height: 79px; line-height: 79px;">86</div>
+<div class="num" id="num-87" style="height: 79px; line-height: 79px;">87</div>
+<div class="num" id="num-88" style="height: 79px; line-height: 79px;">88</div>
+<div class="num" id="num-89" style="height: 79px; line-height: 79px;">89</div>
+<div class="num" id="num-90" style="height: 79px; line-height: 79px;">90</div>
+</div>
+<hr>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+	
+            (function($){
+               $.fn.extend({
+                    numAnim: function(options) {
+                        if ( ! this.length)
+                            return false;
+
+                        this.defaults = {
+                            endAt: 90,
+                            numClass: 'autogen-num',
+                            duration: 0.5,   // seconds
+                            interval: 25  // ms
+                        };
+                        var settings = $.extend({}, this.defaults, options);
+
+                        var $num = $('<span/>', {
+                            'class': settings.numClass 
+                        });
+
+                        return this.each(function() {
+                            var $this = $(this);
+
+                            // Wrap each number in a tag.
+                            var frag = document.createDocumentFragment(),
+                                numLen = settings.endAt.toString().length;
+                            for (x = 0; x < numLen; x++) {
+                                var rand_num = Math.floor( Math.random() * 10 );
+                                frag.appendChild( $num.clone().text(rand_num)[0] )
+                            }
+                            $this.empty().append(frag);
+
+                            var get_next_num = function(num) {
+                                ++num;
+                                if (num > 9) return 0;
+                                return num;
+                            };
+
+                            // Iterate each number.
+                            $this.find('.' + settings.numClass).each(function() {
+                                var $num = $(this),
+                                    num = parseInt( $num.text() );
+
+                                var interval = setInterval( function() {
+                                    num = get_next_num(num);
+                                    $num.text(num);
+                                }, settings.interval);
+
+                                setTimeout( function() {
+                                    clearInterval(interval);
+                                }, settings.duration * 1000 - settings.interval);
+                            });
+
+                            setTimeout( function() {
+                                $this.text( settings.endAt.toString() );
+                                $("#num-" + settings.endAt).addClass("generated");
+                                generated_numbers.push(settings.endAt);
+                            }, settings.duration * 1000);
+                        });
+                    }
+                });
+            })(jQuery);
+
+            var generated_numbers = [];
+
+            $(function(){
+                for(i=1; i<=90; i++){
+                    $("<div />").addClass("num").html(i).attr("id","num-" + i).appendTo("#grid-container");
+                }
+
+                var cw = $('.num').width();
+                $('.num').css({'height':cw+'px','line-height':cw+'px'});
+            });
+
+            function generateNum(){
+                if(generated_numbers.length == 90){
+                    alert("Full House!");
+                    return;
+                }
+                while(true){
+                    var i = getRandomInt(1, 90);
+                    if($.inArray(i, generated_numbers) == -1){
+                        //$("#number").html(i);
+                        $("#number").numAnim({
+                            endAt: i
+                        });
+                        //$("#num-" + i).addClass("generated");
+                        //generated_numbers.push(i);
+                        //setTimeout("generateNum()",200);
+                        break;
+                    }
+                }
+            }
+
+            function getRandomInt(min, max) {
+                return Math.floor(Math.random() * (max - min + 1)) + min;
+            }
+        
+</script>
+</body>
+</html>
